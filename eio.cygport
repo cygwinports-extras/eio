@@ -1,13 +1,13 @@
 NAME="eio"
-VERSION=1.7.4
+VERSION=1.7.7
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="Enlightenment asynchronous I/O library"
 DESCRIPTION="This library is intended to provide non blocking IO by using thread
 for all operations that may block. It should integrate all the features and
 functions of Ecore_File that could block."
 HOMEPAGE="http://www.enlightenment.org/"
-SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+SRC_URI="http://download.enlightenment.org/releases/eio-${VERSION}.tar.bz2"
 
 PKG_NAMES="libeio1 libeio-devel"
 libeio1_CONTENTS="usr/bin/*-1.dll usr/share/"
